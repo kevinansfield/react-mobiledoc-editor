@@ -40,10 +40,10 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "mobiledoc-kit": "^0.13.2 || ^0.14.0"
   },
   "peerDependencies": {
-    "mobiledoc-kit": "^0.12.2 || ^0.13.0 || ^0.14.0",
+    "prop-types": "^15.7.2",
     "react": "^16.3.0 || ^17.0.0",
     "react-dom": "^16.3.0 || ^17.0.0"
   },
@@ -80,7 +80,6 @@
     "karma-rollup-preprocessor": "^7.0.7",
     "karma-sourcemap-loader": "^0.3.8",
     "karma-webpack": "^4.0.2",
-    "mobiledoc-kit": "^0.13.2",
     "mocha": "^8.2.1",
     "prettier": "^2.4.1",
     "react": "^17.0.1",

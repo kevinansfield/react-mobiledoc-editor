@@ -47,7 +47,6 @@ export default defineConfig([
         react: 'React',
         'react-dom': 'ReactDOM',
         'prop-types': 'PropTypes',
-        'mobiledoc-kit': 'Mobiledoc',
       },
       amd: {
         id: 'ReactMobiledocEditor',
@@ -57,6 +56,8 @@ export default defineConfig([
     plugins: [
       autoExternal({
         packagePath: path.resolve(__dirname, 'package.json'),
+        dependencies: false,
+        peerDependencies: true,
       }),
       nodeResolve(),
       babel({
