@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import * as Mobiledoc from 'mobiledoc-kit';
+import Mobiledoc from 'mobiledoc-kit';
 import { LATEST_MOBILEDOC_VERSION, EMPTY_MOBILEDOC } from '../utils/mobiledoc';
 import { ReactMobileDocContext } from './Context';
 
